@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select by Tag Name</title>
+</head>
+<body>
+  <p>Paragraph 1</p>
+  <p>Paragraph 2</p>
+  <script>
+    const paragraphs = document.getElementsByTagName("p");
+    for (let p of paragraphs) {
+      p.style.fontWeight = "bold";
+    }
+  </script>
+</body>
+</html>
